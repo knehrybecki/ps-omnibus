@@ -1,0 +1,56 @@
+.omnibus {
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+  font-family: Lato,sans-serif;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.omnibus-info{
+  padding-left: 5px;
+}
+.omnibus-info > i {
+color: #999;
+font-size: 15px;
+font-weight: 300;
+cursor: pointer;
+}
+#modal-popup-omnibus {
+  background-color: #00000078;
+}
+.modal-content {
+  width: 100%;
+
+}
+.modal-body-omnibus {
+color:#000;
+font-size: 15px;
+padding: 20px;
+
+}
+.popup-close-omnibus {
+  position: absolute;
+    right: 0;
+    top: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    outline: none!important;
+
+}
+#line-x-1 {
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+  transform: rotateZ(45deg);
+}
+#line-x-2 {
+  width: 15px;
+  height: 2px;
+  background-color: #000;
+  transform: rotateZ(270deg);
+}
+#omnibus_price {
+  padding-left: 2px;
+}
